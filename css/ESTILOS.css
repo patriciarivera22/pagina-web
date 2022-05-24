@@ -8,9 +8,11 @@ html{
     scroll-behavior: smooth;
 }
 
+
 .nombre{
     color: white;
-    font-size: 50px;
+    font-size: 55px;
+    
 }
 
 .copy{
@@ -186,7 +188,7 @@ header{
 
 .cont-proyect{
    width: 80%;
-    display: block;
+   display: block;
     margin: 0 auto;
     
 }
@@ -194,15 +196,22 @@ header{
 .cont-proyect IMG{
     width: 98%;
     display: block;
-    margin:0auto; 
+    margin:0 auto;
+
     
 }
 
+
 .n-proyect{
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 100%;
-    font-weight: 400;
+    font-weight: 600;
+    font-size: 40px;
+    align-content: center;
+    text-align: center;
+    
 }
 
 .footer{
