@@ -8,11 +8,9 @@ html{
     scroll-behavior: smooth;
 }
 
-
 .nombre{
     color: white;
-    font-size: 55px;
-    
+    font-size: 50px;
 }
 
 .copy{
@@ -64,7 +62,7 @@ header{
     z-index: 10;
     top: 30px;
     right: 30px;
-    background-color : white;
+    background-color :#b4dcb0 ;
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -78,7 +76,7 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
     background-blend-mode: multiply,multiply;
     display: flex;
     flex-direction: column;
@@ -96,7 +94,7 @@ header{
 }
 
 .menu-navegacion a{
-    color: white;
+    color: darkslategray;
     text-decoration: none;
     
 }
@@ -190,6 +188,7 @@ header{
    width: 80%;
    display: block;
     margin: 0 auto;
+    text-align: center;
     
 }
 
@@ -204,8 +203,8 @@ header{
 
 .n-proyect{
     display: inline-block;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 
     width: 100%;
     font-weight: 600;
     font-size: 40px;
