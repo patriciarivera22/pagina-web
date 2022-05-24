@@ -1,0 +1,314 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nombre{
+    color: white;
+    font-size: 50px;
+}
+
+.copy{
+    color: white;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;    
+}
+
+/contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../IMG/YO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;  
+}
+
+.hamburguesa{
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    background-color : white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.menu-navegacion{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    transition: transform .3s ease-in-out;;
+    transform: translate(110%)
+    
+}
+
+
+.spread{
+    transform: translate(0);
+    
+}
+
+.menu-navegacion a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: darkslategrey;
+    margin-bottom: 40px;
+    font-size: 40px;
+        
+}
+
+    
+.contenedor-hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-hobbies img{
+    width: 30%;
+    margin: 8px;
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    text-align:center;
+    
+}
+
+.checklist-hobbies{
+    width: 45%;
+}
+
+.hobbies{
+    margin-bottom: 20px;
+}
+
+.n-hobbies{
+    margin-bottom: 6px;
+    color: darkslategrey;
+    text-align: center;
+    
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    flex-wrap: wrap;
+
+}
+
+.collages{
+    background: #f2f2f2;
+    
+}
+
+.contendor-collages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    text-align: center;
+    
+
+}
+
+.img-COLLAGES{
+    object-fit: cover;
+    width: 30%;
+    margin-bottom: 20px;
+
+   
+}
+
+.proyectos{
+   display: flex;
+   justify-content: space-evenly;
+   align-content: center;
+   flex-wrap: wrap;
+    
+}
+
+.cont-proyect{
+   width: 80%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.cont-proyect IMG{
+    width: 98%;
+    display: block;
+    margin:0auto; 
+    
+}
+
+.n-proyect{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.footer{
+    background-color: dimgrey;
+    padding-bottom:px;
+    
+    
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    background-color: darkseagreen;
+}
+
+.contact-us{
+    width: 40%;
+    color: white;
+}
+
+.brand{
+    font-weight:500;
+    font-size: 30px;
+}
+
+.brand+p{
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+
+.social-media{
+    width:%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 70%;
+    text-align: center;
+    color: white;
+}
+
+.social-media-icon:hover{
+    background color: white;
+    color: darkslategrey;
+}
+
+.social-media-icon{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: dimgrey;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        widht:50vw;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .contenedor-hobbies img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .checklist-hobbies{
+        width: 80%;
+    }
+    .img-COLLAGES{
+        width: 45%;
+    }
+    .cont-proyect{
+        width: 80%;
+    }
+    .footer-content{
+        width: 80%;
+        justify-content: center;
+    }
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .contact-us{
+        width: 90%;
+        justify-content: center;
+        margin-bottom: 10px;
+        
+    }
+    .social-media i{
+        margin-left: 0;
+    }
+}
